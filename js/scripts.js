@@ -10,8 +10,9 @@ if (allNames.indexOf(newName) === -1) {
     console.log('Dodano imię: ' + newName);
     allNames.push(newName);
 } 
-else if (allNames.indexOf(newName) != -1) {
+else {
     console.log('Imię \"' + newName + '\" już istnieje!');
 }
 
 console.log(allNames.join(' / '));
+
